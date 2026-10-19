@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="description" content="HTA Elite Fitness — online fitness desteği, antrenman takibi ve sürdürülebilir gelişim.">
+  <title>HTA Elite Fitness | Train Hard. Stay Elite.</title>
+  <style>
+    :root{--gold:#d4af37;--gold2:#f2d77b;--bg:#090909;--panel:#141414;--muted:#b8b8b8}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:#f7f7f7;font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+    a{color:inherit}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;background:rgba(9,9,9,.94);backdrop-filter:blur(10px);border-bottom:1px solid #2b2514;z-index:10}
+    nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:900;letter-spacing:1.4px;color:var(--gold);text-decoration:none}
+    .brand span{display:block;color:#fff;font-size:.68rem;letter-spacing:3px}
+    nav ul{display:flex;gap:22px;list-style:none;padding:0;margin:0}
+    nav ul a{text-decoration:none;color:#ddd;font-size:.93rem}
+    .hero{min-height:76vh;display:grid;place-items:center;text-align:center;padding:80px 0;background:radial-gradient(ellipse at 50% 20%,#3b2d0d 0,transparent 45%),linear-gradient(135deg,#0a0a0a,#15120a 55%,#080808)}
+    .eagle{font-size:4rem;line-height:1;margin-bottom:18px;filter:drop-shadow(0 0 18px #b68c2b)}
+    h1{font-size:clamp(2.5rem,8vw,5.7rem);line-height:1.02;letter-spacing:2px;margin:0;color:var(--gold2)}
+    .eyebrow{letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-size:.8rem;font-weight:bold}
+    .hero p{max-width:650px;margin:22px auto;color:#e0e0e0;font-size:1.1rem}
+    .buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:13px 20px;border-radius:7px;text-decoration:none;font-weight:800;border:1px solid var(--gold);transition:.2s}
+    .btn.primary{background:var(--gold);color:#111}
+    .btn.secondary{color:var(--gold)}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.1)}
+    section{padding:68px 0}
+    .section-title{text-align:center;font-size:clamp(1.8rem,4vw,2.7rem);margin:0 0 12px}
+    .section-title span{color:var(--gold)}
+    .lead{text-align:center;color:var(--muted);max-width:700px;margin:0 auto 32px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:linear-gradient(145deg,#171717,#101010);border:1px solid #302817;border-radius:14px;padding:24px}
+    .card .icon{font-size:1.8rem}
+    .card h3{color:var(--gold2);margin:12px 0 8px}
+    .card p{color:#c9c9c9;margin:0}
+    .steps{counter-reset:step;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .step{border-left:3px solid var(--gold);background:#111;padding:18px 20px}
+    .step h3{margin:0 0 8px}
+    .step p{color:#c9c9c9;margin:0}
+    .cta{background:linear-gradient(120deg,#211a09,#111 65%);border-top:1px solid #473819;border-bottom:1px solid #473819;text-align:center}
+    .cta p{color:#ddd;max-width:650px;margin:12px auto 24px}
+    .note{font-size:.85rem;color:#999;margin-top:22px}
+    footer{padding:28px 0;color:#999;font-size:.9rem}
+    footer .foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:760px){nav{padding:12px 0;align-items:flex-start;flex-direction:column}nav ul{gap:14px;flex-wrap:wrap}.cards,.steps{grid-template-columns:1fr}.hero{min-height:70vh;padding:65px 0}.eagle{font-size:3.3rem}section{padding:52px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#top">HTA <span>ELITE FITNESS</span></a>
+    <ul>
+      <li><a href="#hakkinda">Hakkında</a></li>
+      <li><a href="#destek">Online Destek</a></li>
+      <li><a href="#basvuru">Başvuru</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="eagle" aria-hidden="true">🦅</div>
+      <div class="eyebrow">Performance • Strength • Physique</div>
+      <h1>HTA ELITE<br>FITNESS</h1>
+      <p><strong>Disiplinini geliştir. Gücünü keşfet.</strong><br>Fitness hedeflerine daha planlı ilerlemek için online antrenman takibi ve sürdürülebilir gelişim yaklaşımını keşfet.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#basvuru">Online Fitness İçin Başvur</a>
+        <a class="btn secondary" href="#destek">Hizmeti İncele</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="hakkinda">
+    <div class="wrap">
+      <h2 class="section-title">Daha planlı bir <span>fitness yolculuğu</span></h2>
+      <p class="lead">HTA Elite Fitness; hedef belirleme, düzenli takip ve sürdürülebilir alışkanlıklar üzerine kurulu bir fitness markasıdır.</p>
+      <div class="cards">
+        <article class="card"><div class="icon">🎯</div><h3>Hedefini Belirle</h3><p>Başlangıç seviyeni, hedeflerini ve mevcut rutinini değerlendirerek net bir yol haritası oluştur.</p></article>
+        <article class="card"><div class="icon">📈</div><h3>Gelişimini Takip Et</h3><p>Antrenman kayıtları ve düzenli değerlendirmelerle ilerlemeni görünür hale getir.</p></article>
+        <article class="card"><div class="icon">⚡</div><h3>Disiplinini Koru</h3><p>Gerçekçi hedefler ve sürdürülebilir alışkanlıklarla düzenli kalmaya odaklan.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="destek">
+    <div class="wrap">
+      <h2 class="section-title">Online <span>fitness desteği</span></h2>
+      <p class="lead">Başlangıç hizmetinin kapsamı, ihtiyaçların ve hizmet koşulları görüşme sırasında netleştirilir.</p>
+      <div class="steps">
+        <div class="step"><h3>01 — Tanışma</h3><p>Hedefini, deneyimini ve beklentilerini paylaş.</p></div>
+        <div class="step"><h3>02 — Yol Haritası</h3><p>Uygun hizmet kapsamını ve takip yöntemini birlikte netleştir.</p></div>
+        <div class="step"><h3>03 — Takip</h3><p>Belirlenen plana göre ilerlemeni düzenli olarak değerlendir.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="basvuru">
+    <div class="wrap">
+      <div class="eyebrow">Train Hard. Stay Elite.</div>
+      <h2 class="section-title">Başlamaya <span>hazır mısın?</span></h2>
+      <p>Online fitness desteği hakkında bilgi almak için Instagram veya X üzerinden mesaj gönder. Mesajına “ELITE” yazarak başlayabilirsin.</p>
+      <div class="buttons">
+        <a class="btn primary" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram'dan İletişim</a>
+        <a class="btn secondary" href="https://x.com/htapexelite" target="_blank" rel="noopener noreferrer">X Profilini Aç</a>
+      </div>
+      <p class="note">Not: Instagram butonu genel Instagram sayfasına gider. Yayına almadan önce kendi profil bağlantını ekle. Hizmetleri yalnızca yetkinlik ve çalışma koşullarına uygun şekilde sun.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><strong style="color:#d4af37">HTA ELITE FITNESS</strong><br>Performance • Strength • Physique</div>
+    <div>© <span id="year">2026</span> HTA Elite Fitness</div>
+  </div>
+</footer>
+</body>
+</html>
